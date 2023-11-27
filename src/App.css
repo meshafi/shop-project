@@ -1,0 +1,153 @@
+body {
+  font-family: Big Shoulders Display;
+}
+.header {
+  font-family: Big Shoulders Display;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shop-cart{
+    display: flex;
+}
+.cart{
+    position: absolute;
+    right:12px;
+    top:8px;
+   
+}
+.cart sup{
+    font-weight: 800;
+}
+.cart img{
+    height:30px;
+    width:30px;
+}
+.cart:hover{
+    cursor: pointer;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+.links {
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  margin-right: 25px;
+}
+.links:focus,
+.links:active {
+  border-bottom: 2px solid black;
+  color: black;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.links1 {
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  margin-right: 25px;
+  border-bottom: 2px solid black;
+}
+h3{
+    text-align: center;
+}
+.outwear {
+  margin-top: 15px;
+  letter-spacing: 1.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-container{
+    margin:0px 5vw;
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item-card{
+    margin:50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    letter-spacing: .4px;
+}
+.itme-added{
+    letter-spacing: 1px;
+}
+.price{
+    letter-spacing: 1px;
+    color:rgb(97, 97, 97);
+}
+.addIcon{
+    height:40px;
+    width:40px;
+}
+.addIcon:hover{
+    cursor: pointer;
+}
+
+.addedIcon{
+    height:40px;
+    width:40px;
+}
+.content-hider{
+    position: absolute;
+    z-index: 4;
+    top:50px;
+    margin-top:20px;
+    background-color: white;
+    height:60px;
+    width:100%;
+}
+.shopping-cart{
+    background-color: white;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopping-cart img{
+    height:100px;
+    width:100px;
+}
+.items-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+li{
+    list-style: none;
+}
+.items-cart ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0;
+    padding:0;
+    margin-top:40px;
+}
+.items-cart p{
+    font-weight: 800;
+    margin-top:40px;
+    margin-left:25px;
+}
+.remove-btn{
+    background-color: black;
+    color:white;
+    margin-left:30px;
+}
+.remove-btn:hover{
+    cursor: pointer;
+}
